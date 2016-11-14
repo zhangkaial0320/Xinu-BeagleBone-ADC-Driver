@@ -1,4 +1,4 @@
-# Xinu-BeagleBone-ADC-Driver
+ls# Xinu-BeagleBone-ADC-Driver
 Simple ADC Driver on Xinu Platform
 
 Compile Instruction:
@@ -28,7 +28,6 @@ NOTE:
 	you have to modify the code.
 
 Contact: zhangkai6@ufl.edu
-242312
 
 
 
