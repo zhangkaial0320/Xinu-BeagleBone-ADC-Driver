@@ -3,7 +3,7 @@ Simple ADC Driver on Xinu Platform
 
 Compile Instruction:
 
-1. In <Your xinu root folder>/device, mkdir -p adc
+1. In ' <Your xinu root folder>/device ' ,  ' mkdir -p adc '
 2. Copy all these source files into adc/ folder
 3. move adc.h into <Your xinu root folder>/include folder
 4. add #include <adc.h> in xinu.h
