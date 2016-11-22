@@ -17,6 +17,12 @@ Compile Instruction:
             -intr adchandler
 
     ADC  is adc on top csr 0x44e0d000 -irq 16
+5. In the <Your xinu root folder>/compile/Makefile, find:
+        REBUILDFLAGS = 
+   append:
+        -s $(TOPDIR)/device/adc \
+   this will let add the adc folder into compiling.
+
 
 6. go to <Your xinu root folder>/compile, do:
 	make clean
@@ -24,7 +30,7 @@ Compile Instruction:
 
 NOTE:
 	This simple dirver is just for test, you can modify to fit your own application,
-	and this driver just juse AIN0 for input, if you want to use other pins (AIN1~AIN7),
+	and this driver just use AIN0 for input, if you want to use other pins (AIN1~AIN7),
 	you have to modify the code.
 
 Contact: zhangkai6@ufl.edu
