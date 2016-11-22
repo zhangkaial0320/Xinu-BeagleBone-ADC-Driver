@@ -25,7 +25,7 @@ Compile Instruction:
 
 
 6. go to <Your xinu root folder>/compile, do:
-	make clean
+	make clean (has to do this!!)
 	make
 
 NOTE:
