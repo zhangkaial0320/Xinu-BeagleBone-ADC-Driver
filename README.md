@@ -1,4 +1,4 @@
-ls# Xinu-BeagleBone-ADC-Driver
+ls # Xinu-BeagleBone-ADC-Driver
 Simple ADC Driver on Xinu Platform
 
 Compile Instruction:
@@ -31,9 +31,8 @@ Compile Instruction:
 NOTE:
 	This simple dirver is just for test, you can modify to fit your own application,
 	and this driver just use AIN0 for input, if you want to use other pins (AIN1~AIN7),
-	you have to modify the code.
-Contact: zhangkai6@ufl.edu
-SDFSDFSDF
-SDFSDF
+	you have to modify the code. 
+	Contact: zhangkai6@ufl.edu 
+
 
 
